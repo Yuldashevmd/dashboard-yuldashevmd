@@ -1,10 +1,11 @@
-const GenericPage =()=>{
-    
-    return(
-        <div>
-            <h1> page is on process</h1>
-        </div>
-    )
-}
+const GenericPage = () => {
+  const location = window.location.pathname;
 
-export default GenericPage
+  return (
+    <div>
+      <h1>{location} page is on process</h1>
+    </div>
+  );
+};
+
+export default GenericPage;

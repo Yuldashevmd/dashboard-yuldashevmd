@@ -33,7 +33,7 @@ const StudentsPage = () => {
       title: "Status",
       dataIndex: "",
       key: "x",
-      render: () => <a href='#'>Active</a>,
+      render: () => <p>Active</p>,
     },
   ];
   const data = [
